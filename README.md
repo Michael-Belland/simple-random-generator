@@ -21,8 +21,7 @@ Run this program in the command line with the command
 The expected output, printed to the terminal window, should be something 
 like
 
-    Your HSR Character is: Aaron, a Physical-Type character on the Path of 
-Harmony.
+    Your HSR Character is: Aaron, a Physical-Type character on the Path of Harmony.
 
 ## Room for Extension
 
