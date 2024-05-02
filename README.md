@@ -1,12 +1,18 @@
 # Random HSR Character Generator
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Expected Output](#expected-output)
+- [Room for Extension](#room-for-extension)
+
 ## Overview
 
 This is a simple js project, run and tested locally with node.js.  Running 
 the script will generate a character with attributes of that of Honkai 
 Star Rail; that is, a name, a type, and a path.
 
-## Expected output
+## Expected Output
 
 Run this program in the command line with the command 
 
