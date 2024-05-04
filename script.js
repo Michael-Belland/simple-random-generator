@@ -2,4 +2,10 @@ let randomNames = ["Aaron", "Anna", "Bernice", "Calvus", "Cecilie", "Dafina", "D
 let hsrTypes = ["Physical", "Fire", "Ice", "Lightning", "Wind", "Quantum", "Imaginary"];
 let hsrPaths = ["Destruction", "The Hunt", "Erudition", "Harmony", "Nihility", "Preservation", "Abundance"];
 
-console.log("Initial Testing Line");
+let nameIndex = Math.floor(Math.random()*randomNames.length);
+let typeIndex = Math.floor(Math.random()*hsrTypes.length);
+let pathIndex = Math.floor(Math.random()*hsrPaths.length);
+
+//TODO: can the random index assignments be done with a loop instead?
+
+console.log(`Your HSR Character is: ${randomNames[nameIndex]}, a ${hsrTypes[typeIndex]}-Type character on the Path of ${hsrPaths[pathIndex]}.`);
